@@ -1,10 +1,10 @@
 import React from "react";
-import { BorwserRouter, Switch, Route } from "react-router-dom";
-import DashboardLayout from "./components/dashboardLayout/DashBoardLayout";
+import { Switch, Route } from "react-router-dom";
+import DashboardLayout from "./components/dashboardLayout/Dashboard";
+
 const Controller = () => {
   return (
     <DashboardLayout>
-      this is dashboard
       <Switch>
         <Route />
       </Switch>
